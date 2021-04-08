@@ -81,15 +81,15 @@
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-maven</artifactId>
             <configuration>
-                <reportVersion>2.13.2</reportVersion>
-                <allureDownloadUrl>https://repo.maven.apache.org/maven2/io/qameta/allure/allurecommandline/2.13.2/allure-commandline-2.13.2.zip</allureDownloadUrl>
+                <reportVersion>2.13.9</reportVersion>
+                <allureDownloadUrl>https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.13.9/allure-commandline-2.13.9.zip</allureDownloadUrl>
             </configuration>
         </plugin>
     </plugins>
 </build>
     <properties>
-        <maven.compiler.source>15</maven.compiler.source>
-        <maven.compiler.target>15</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
 </project>
